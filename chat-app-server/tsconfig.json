@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./src",           /* บอกว่าโค้ดต้นฉบับอยู่ที่ src */
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]         /* สำคัญ! บอกให้มันอ่านไฟล์ใน src เท่านั้น */
+}
